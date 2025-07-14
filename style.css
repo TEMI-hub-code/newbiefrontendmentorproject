@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    
+
+}
+
+.container{
+    background-color: white;
+    width: 375px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    color: black;
+    box-shadow: 10px 10px black;
+    border: 1px  solid black;
+
+}
+
+header{
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+header button{
+    background-color:  hsl(47, 88%, 63%);
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 10px;
+    font-style: bold;
+    margin-top: 20px;
+}
+
+
+main{
+    margin-bottom: 15px;
+}
+main h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+main p{
+    color: hsl(0, 0%, 42%);
+}
+
+footer{
+    font-style: bold;
+
+}
+
+main h1:hover{
+    color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+header img{
+    border-radius: 10px;
+}
