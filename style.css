@@ -6,20 +6,31 @@
 
 body{
     background-color: hsl(47, 88%, 63%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 
 }
 
 .container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.contents{
     background-color: white;
-    width: 375px;
+    width: 23.5em;
     border-radius: 20px;
     padding: 20px;
-    margin: auto;
     color: black;
     box-shadow: 10px 10px black;
     border: 1px  solid black;
+}
 
+@media (max-width: 360px) {
+    .container{
+        width: 70%;
+    }
 }
 
 header{
@@ -52,6 +63,10 @@ main p{
 
 footer{
     font-style: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 
 }
 
@@ -62,4 +77,5 @@ main h1:hover{
 
 header img{
     border-radius: 10px;
+
 }
