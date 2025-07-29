@@ -27,11 +27,6 @@ body{
     border: 1px  solid black;
 }
 
-@media (max-width: 360px) {
-    .container{
-        width: 70%;
-    }
-}
 
 header{
     margin-bottom: 10px;
