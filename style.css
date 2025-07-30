@@ -19,7 +19,7 @@ body{
 
 .contents{
     background-color: white;
-    width: 23.5em;
+    width: 310px;
     border-radius: 20px;
     padding: 20px;
     color: black;
@@ -41,6 +41,10 @@ header button{
     margin-bottom: 10px;
     font-style: bold;
     margin-top: 20px;
+}
+
+.contents header img{
+    width: 99.5%;
 }
 
 
